@@ -5,7 +5,7 @@
 
 name = input("What is your name" + " ") # specify your name here
 age = int(input("age" + " ")) # age entered as int
-print("OMG, you are" + " " + str(age) + " " + "years old and was born in the year...")  # printing message with age/year.
+print("OMG, you are" + " " + str(age) + " " + "years old and was born in the year")  # printing message with age/year.
 current_year = 2022
 year_born = (current_year - age)
 print(year_born)
